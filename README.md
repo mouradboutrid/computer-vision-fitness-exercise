@@ -40,15 +40,9 @@ The system works with:
 exercise-form-evaluator/
 ├── app/
 │   ├── __init__.py
-│   ├── main.py              # Application entry point
 │   ├── form_analyzer.py     # Core analysis logic
 │   ├── pose_detector.py     # Pose estimation module
 │   ├── exercise_classifier.py  # Exercise classification module
-│   ├── feedback_generator.py   # Generates correction suggestions
-│   └── utils/
-│       ├── __init__.py
-│       ├── visualization.py    # Visualization tools
-│       └── angle_calculator.py # Joint angle calculations
 ├── models/
 │   ├── pose_model/          # Pre-trained pose estimation model
 │   └── exercise_classifier/ # Exercise classification model
@@ -59,9 +53,7 @@ exercise-form-evaluator/
 │   ├── web/                 # Web interface files
 │   └── desktop/             # Desktop application interface
 ├── tests/                   # Unit and integration tests
-├── docs/                    # Documentation
 ├── requirements.txt         # Python dependencies
-├── setup.py                 # Installation script
 └── README.md                # This file
 ```
 
