@@ -38,21 +38,21 @@ The system works with:
 
 ```
 exercise-form-evaluator/
-├── app/
-│   ├── __init__.py
-│   ├── form_analyzer.py     # Core analysis logic
-│   ├── pose_detector.py     # Pose estimation module
-│   ├── exercise_classifier.py  # Exercise classification module
+├── app/...
 ├── models/
-│   ├── pose_model/          # Pre-trained pose estimation model
+│   ├── exercise_tracker/                     # Pre-trained pose estimation model (only for push-ups and squat)
 │   └── exercise_classifier/ # Exercise classification model
 ├── data/
-│   ├── exercise_references/ # Reference data for correct form
-│   └── test_videos/         # Sample videos for testing
-├── ui/
-│   ├── web/                 # Web interface files
-│   └── desktop/             # Desktop application interface
-├── tests/                   # Unit and integration tests
+│   └── test_video/         # Sample videos for testing
+├── data_processing/        # From raw videos to Array of landmarks positions 
+│   ├── data_Preprocessing.ipynb 
+│   ├── data_analyzer.ipynb 
+│   ├── X.npy               #landmarks position with weights
+│   └── y.npy               #Labels
+├── src/
+│   ├── exercise_classifier.ipynb
+│   ├── Squat_form_tracker.ipynb
+│   └── pushup_from_tracker.ipynb
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
 ```
