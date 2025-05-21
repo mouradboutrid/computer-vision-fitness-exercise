@@ -91,12 +91,6 @@ exercise-form-evaluator/
 python -m app.main --source camera
 ```
 
-### Analyzing a Video File
-
-```bash
-python -m app.main --source video --input path/to/your/video.mp4
-```
-
 ### Web Interface
 
 1. Start the web server:
