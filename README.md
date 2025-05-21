@@ -1,13 +1,10 @@
 # Exercise Form Evaluator
 
-![Exercise Form Evaluator](https://img.shields.io/badge/Status-Active-green) ![License](https://img.shields.io/badge/License-MIT-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow) ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-orange) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-red)
-
 A computer vision-based application that analyzes exercise form in real-time, providing instant feedback and corrections to help users maintain proper technique during workouts.
 
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Demo](#demo)
 - [Technical Architecture](#technical-architecture)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -36,10 +33,6 @@ The system works with:
 - **Progress Tracking**: Monitors improvement over time
 - **Exercise Library**: Supports multiple common exercises with expansion capability
 - **User-friendly Interface**: Simple controls for video upload or camera activation
-
-## 🎬 Demo
-
-![Demo GIF](https://via.placeholder.com/640x360.png?text=Exercise+Form+Evaluator+Demo)
 
 ## 🏗️ Technical Architecture
 
@@ -84,14 +77,8 @@ exercise-form-evaluator/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/exercise-form-evaluator.git
+   git clone https://github.com/mouradboutrid/computer-vision-fitness-exercise.git
    cd exercise-form-evaluator
-   ```
-
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
@@ -132,12 +119,6 @@ python -m app.main --source video --input path/to/your/video.mp4
 The current version supports the following exercises:
 - Squats
 - Push-ups
-- Bicep curls
-- Lunges
-- Planks
-- Shoulder press
-- Deadlifts
-
 Additional exercises will be added in future updates.
 
 ## ⚙️ How It Works
@@ -156,20 +137,7 @@ Additional exercises will be added in future updates.
 - **Flask/FastAPI**: Web interface backend (if using web interface)
 - **NumPy**: Numerical computations for angle calculations
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+  
 ## 🙏 Acknowledgments
 
 - [MediaPipe](https://google.github.io/mediapipe/) for pose estimation
